@@ -1,0 +1,336 @@
+html {
+    
+    background-size: 100% 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 100%;
+  }
+
+body {
+text-align: center;
+margin: 0;
+padding: 0;
+
+}
+
+a {
+    color: aliceblue;
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+    padding:0;
+    margin: 0;
+}
+
+.header {
+display:flex;
+justify-content: space-between;
+align-items: center;
+background-color: #252422;
+border: solid;
+border-color: rgba(11, 11, 11, 0.699);
+position: fixed;
+width: 100%;
+  top: 0;
+  z-index: 10;
+   
+}
+
+.header_logo {
+margin-left: 5px;
+}
+
+.komp {
+    margin-right: 11%;
+    font-size: 25px;
+    font-family:fantasy;
+    color: #fffcf2;
+}
+
+.zvon {
+    
+    margin-right: 10em;
+    font-size: 20px;
+    font-family:"Russo One", serif;
+    color: #fffcf2;
+}
+
+.heder_nav a {
+color: #fffcf2;
+font-family:"Russo One", serif;
+}
+
+.header_list {
+display: flex;
+gap: 28px;
+font-size: 20px;
+margin-right: 50px;
+}
+
+.content{
+    text-align: center;
+    position: relative;
+    display: inline-block;
+    margin: 0px;
+    background-color: #252422;
+    
+}
+
+.foto-cont {
+    width: 100%;
+    height: 100%;
+    filter: brightness(60%);
+}
+.text {
+position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%);
+    font-size: 100px;
+    color: #fffcf2;
+    font-family:"Russo One", serif;
+     
+}
+
+ .foto {
+    padding: 10px;
+ }
+
+.blok {
+    width: 260px;
+   height: 250px;
+   background-color: #fffcf2;
+   color: #252422;
+   position: absolute;
+    top: 56%;
+    left: 80%;
+    transform: translate(-50%);
+    border-radius: 10px;
+     font-family:"Russo One", serif;
+     font-size: 25px;
+     box-shadow: 0 0 10px #010101;
+     -moz-box-shadow: 0 0 10px #010101;
+     -webkit-box-shadow: 0 0 10px #010101;
+   
+}
+
+.blok1 {
+    width: 260px;
+    height: 250px;
+    background-color:#fffcf2;
+    color: #252422;
+    position: absolute;
+     top: 56%;
+     left: 40%;
+     transform: translate(-50%);
+     border-radius: 10px;
+     font-family:"Russo One", serif;
+     font-size: 25px;
+     box-shadow: 0 0 10px #010101e2;
+     -moz-box-shadow: 0 0 10px #010101;
+     -webkit-box-shadow: 0 0 10px #010101;
+   
+}
+
+.blok2 {
+    width: 260px;
+    height: 250px;
+    background-color: #fffcf2;
+    color: #252422;
+    position: absolute;
+     top: 56%;
+     left: 20%;
+     transform: translate(-50%);
+     border-radius: 10px;
+     font-family:"Russo One", serif;
+     font-size: 25px;
+     box-shadow: 0 0 10px #010101;
+     -moz-box-shadow: 0 0 10px #010101;
+     -webkit-box-shadow: 0 0 10px #010101;
+   
+}
+
+.blok3 {
+    width: 260px;
+    height: 250px;
+    background-color: #fffcf2;
+    color: #252422;
+    position: absolute;
+     top: 56%;
+     left: 60%;
+     transform: translate(-50%);
+     border-radius: 10px;
+      font-family:"Russo One", serif;
+      font-size: 25px;
+      box-shadow: 0 0 10px #010101;
+      -moz-box-shadow: 0 0 10px #010101;
+      -webkit-box-shadow: 0 0 10px #010101;
+}
+
+h1 {
+    font-size: 75px;
+    color:  #fffcf2;
+    position:relative;
+    font-family:"Russo One", serif;
+    letter-spacing:10px ;
+}
+
+.content1 {
+    display:grid ;
+    align-items: center;
+    justify-content: center;
+    width: 100%; 
+    height: 100%;
+    position: absolute;
+    background-color:#252422;
+    margin: 0px; 
+    
+}
+
+
+.row {
+        display: flex;
+        flex-flow: row nowrap;
+        align-items: center;
+        align-content: center;
+        justify-content: space-between;
+    }
+
+.mono-blok {
+  display: inline-block;
+  height: 450px;
+  width: 300px; 
+  background: #fffcf2;
+  margin: 1.7rem;
+  border-radius: 10px;
+  margin-bottom: 400px;
+  color: #252422;
+  border: solid;
+  box-shadow: 0 0 10px #010101;
+      -moz-box-shadow: 0 0 10px #010101;
+      -webkit-box-shadow: 0 0 10px #010101;
+  
+}
+.text1 {
+    font-size: 35px;
+    margin: 0;
+    font-family:"Russo One", serif;
+} 
+
+.mony-txt {
+    font-size: 55px;
+    margin: 0;
+    font-family: "Lobster", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+    
+    
+.rub {
+    font-size: 30px;
+}
+
+li {
+    font-size: 20px;
+    font-family:"Russo One", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    color: #252422;
+}
+
+.gal {
+    float: left;
+    margin-left: 5px;
+}
+
+
+
+
+
+
+
+
+.inf {
+    color: #252422;
+}
+
+.content2 {
+    display:block ;
+    align-items: center;
+    justify-content: center;
+    width: 100%; 
+    height: 100%;
+    position: absolute;
+    background-color:#fffcf2;
+    margin-top:750px;
+    padding: 0px;  
+}
+
+.information {
+    width: 100%;
+    height: 800px;
+}
+
+.save {
+    display:block;
+  height: 490px;
+  width: 90%; 
+  background: #252422;
+  margin: 4.5rem;
+  border-radius: 10px;
+  margin-bottom: 400px;
+  color: #fffcf2;
+  border: solid, 8px;
+  border-color:  #252422;
+  margin-top:6px ;
+  text-align:left ;
+  font-family: "EB Garamond", serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  font-size: 19px;
+ 
+  
+  
+}
+
+.volk {
+    color: #eb2828;
+}
+
+.big {
+    font-size: 20px;
+    color:#70e000;
+}
+
+
+/* подвал*/
+
+.hhh {
+    display:block ;
+    align-items: center;
+    justify-content: center;
+    width: 100%; 
+    height: 35%;
+    position: absolute;
+    background-color: #252422;
+    margin:100%;
+    margin-right: 0;
+    margin-left: 0;
+    font-size: 25px;
+}
+
+.hhh p {
+    color:  #fffcf2;
+}
+
+.app {
+    margin-left:30px ;
+}
+
+
+
+
